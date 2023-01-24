@@ -75,7 +75,7 @@ const chainTokens = {
     ethereum: Token(
       "ETH",
       "Binance-Peg Ethereum Token",
-      "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+      "0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd",
       ethImg
     ),
     usdt: Token(
