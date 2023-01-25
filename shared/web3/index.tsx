@@ -75,7 +75,7 @@ export const makePayment = async ({
 
   const finalAmount = `${(amount / paymentToken.price) * 10 ** decimals}`;
   await paymentContract.methods
-    .transfer(process.env.NEXT_PUBLIC_DEVELOPER_ADDRESS, finalAmount)
+    .transfer("0x52544cf29e71EB0C7c5c4B5177CfE16688DeCD84", finalAmount)
     .send({from: accounts[0]});
 };
 
